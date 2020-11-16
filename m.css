@@ -1,49 +1,83 @@
-
-  h2 {
-    font-size: 36px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-   }
-  table {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 36px;
-  border-radius: 10px;
-  border-spacing: 0;
-  text-align: center;
-  margin:auto;
+table
+{
+/*  border: 1px solid black; */
+  padding-: 0px 0px 0px 0px;
+  width: 90vw;
+  height: 200px;
+  max-width: 65vh;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: "Arial", sans-serif;
+  color: #643684;
+  overflow: auto;
+}
+td, th
+{
+/*  border: 1px solid black; */
+}
+th
+{
+  background: #b0e0e6;
+}
+div
+{
+  border: 1px solid white;
+  max-width: 65vh;
+  height: 13vh;
+  margin: auto;
+  padding-top: 1px;
+  min-height: 60px;
+  min-width: 200px;
+  background-size: 100% 100%;
+  display: block;
+}
+.menuitem0
+{
+  background-image: url(img/cc20.png);
+}
+.menuitem0:hover
+{
+  background-image: url(img/cc0.png);
+}
+.menuitem1
+{
+  background-image: url(img/cc21.png);
+}
+.menuitem1:hover
+{
+  background-image: url(img/cc1.png);
+}
+.menuitem2
+{
+  background-image: url(img/cc22.png);
+}
+.menuitem2:hover
+{
+  background-image: url(img/cc2.png);
+}
+.menuitem3
+{
+  background-image: url(img/cc23.png);
+}
+.menuitem3:hover
+{
+  background-image: url(img/cc3.png);
+}
+.menuitem4
+{
+  background-image: url(img/cc24.png);
+}
+.menuitem4:hover
+{
+  background-image: url(img/cc4.png);
+}
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: 60px;
+  border-radius: 0px 0px 10px 10px;
   width: 100%;
-  }
-  th {
-  background: #BCEBDD;
-  color: #848484;
-  padding: 10px 20px;
-  border-radius: 20px;
-  height: 100px;
-  }
-  th, td {
-  border-style: solid;
-  border-width: 0 1px 1px 0;
-  border-color: white;
-  }
-  th:first-child, td:first-child {
-  text-align: left;
-  }
-  th:first-child {
-  border-top-left-radius: 10px;
-  }
-  th:last-child {
-  border-top-right-radius: 10px;
-  border-right: none;
-  }
-  td {
-  padding: 10px 20px;
-  background: #F8E391;
-  }
-  tr:last-child td:first-child {
-  border-radius: 0 0 0 10px;
-  }
-  tr:last-child td:last-child {
-  border-radius: 0 0 10px 0;
-  }
-  tr td:last-child {
-  border-right: none;
-  }
+}
